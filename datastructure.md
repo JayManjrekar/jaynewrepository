@@ -5,7 +5,7 @@
 
 ## Week 2 
 
-### Replit
+### Exmaples and Code Snippets
 
 #### self 
 ``self`` as it suggests, refers to itself- the object which has called the method. That is, if you have N objects calling the method, then ```self.a``` will refer to a separate instance of the variable for each of the N objects. Imagine N copies of the variable ``a`` for each object
