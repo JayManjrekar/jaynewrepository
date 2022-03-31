@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
-<body>
+{% include nav.html %}
+
 
 <h2>Week 0-2</h2>
 
