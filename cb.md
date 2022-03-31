@@ -3,7 +3,7 @@
 
 
 # CB 5.5/5.6 Notes and Quizzes and Github Action
-![img_1.png](img_1.png)
+![image_2.png](image2.png)
 
 Creative Commons is a public copyright license that a creator uses when they want to give others the right to use their work.
 
@@ -35,7 +35,7 @@ Encryption, another way of protecting people's data, is the process of encoding 
 We used an open source license so that it is accessible to the user AKA Derek's mom
 ##5.3/5.4 quiz ss
 
-![img.png](img.png)
+![image1.png](image1.png)
 
 Algorithms might also be trained on sets of data that aren't as diverse as they need to be. For example, facial recognition systems are often trained on data sets that contain fewer images of women and minorities than men in the majority.
 
