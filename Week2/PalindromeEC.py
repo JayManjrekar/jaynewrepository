@@ -18,15 +18,15 @@ class palindrome:
     else:
       print(self.forward + " not a palindrome")
 
-
-p = palindrome("saippuakivikauppias")
-p.mypalindrome()
-
-p1 = palindrome("failure")
-p1.mypalindrome()
-
-p2 = palindrome("A man, a plan, a canal -- Panama!")
-p2.mypalindrome()
+def pp():
+  p = palindrome("saippuakivikauppias")
+  p.mypalindrome()
+  
+  p1 = palindrome("failure")
+  p1.mypalindrome()
+  
+  p2 = palindrome("A man, a plan, a canal -- Panama!")
+  p2.mypalindrome()
 
 if __name__ == "__main__":
-    ll()
+    pp()
