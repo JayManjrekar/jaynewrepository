@@ -12,6 +12,10 @@ class factorial:
     else:
       return n * self.fact(n-1)
 
-f = factorial(10)
-f()
+def printfac():
+  f = factorial(10)
+  f()
+
+if __name__ == "__main__":
+    printfac()
 

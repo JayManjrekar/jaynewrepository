@@ -20,7 +20,9 @@ class mathFunc:
     print()
     
 
+def mfunc():
+  math = mathFunc(23,10013)
+  math()
 
-math = mathFunc(23,10013)
-math()
-
+if __name__ == "__main__":
+    mfunc()
