@@ -7,7 +7,9 @@ from Week2.Mathfunction import mfunc
 from Week2.PalindromeEC import pp
 from Week2.palindromewre import pal
 
-
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
 
 
 week1 = {
@@ -83,8 +85,12 @@ mainMenu = {
 def buildMenu(menu):
     for key,value in menu.items(): 
         display = value["display"]
+        print(Fore.RED )
         print(f"{key} ------ {display}") # each menu item is printed
+        print(Style.RESET_ALL)
+    print(Fore.BLUE + Back.WHITE)
     print("What is your choice? (enter the number value) ") # user input promp
+    print(Style.RESET_ALL)
 
 def presentMenu(menu):
     buildMenu(menu) #print out menu and take input
@@ -100,7 +106,6 @@ def presentMenu(menu):
 
 if __name__ == "__main__":
   while True:
-    print('\033[2J')  # Clear screen
     presentMenu(mainMenu)
     
 
