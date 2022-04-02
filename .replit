@@ -1,2 +1,2 @@
 language = "python3"
-run = "run = ["cargo", "run"]"
+run = "python menu.py"

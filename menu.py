@@ -1,4 +1,4 @@
-from Week1.fibonacci import fibo_print
+from Week1.Fibonacci import printfibo
 from Week1.Hack1 import printinfo
 from Week1.Hack2 import tester
 
@@ -13,7 +13,7 @@ from Week2.palindromewre import pal
 week1 = {
   1: {
     "display": "Fibonacci",
-    "exec": fibo_print,
+    "exec": printfibo,
     "type": "func"
   },
   2: {
@@ -100,6 +100,7 @@ def presentMenu(menu):
 
 if __name__ == "__main__":
   while True:
+    print('\033[2J')  # Clear screen
     presentMenu(mainMenu)
     
 
