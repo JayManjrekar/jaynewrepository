@@ -8,6 +8,8 @@ def Fibonacci(n):
     tempList.append(tempList[-1] + tempList[-2])
     return tempList
 
+def printfibo():
+  print(Fibonacci(12))
 
-print(Fibonacci(12))
-
+if __name__ == "__main__":
+    printfibo()

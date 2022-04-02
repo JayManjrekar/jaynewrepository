@@ -8,12 +8,12 @@ movie2 = {"title":"Thor",
 movie3 = {"title":"Iron Man",
           "price":"12",
           "actors":["robert downey jr","Gwen Palthrow","Jeff Bridges","Elon Musk"]}
-InfoDB.append(movie1)
-InfoDB.append(movie2)
-InfoDB.append(movie3)
-print(InfoDB)
 
-def factorial: 
-  if n>1
-return 
+def printinfo():
+  InfoDB.append(movie1)
+  InfoDB.append(movie2)
+  InfoDB.append(movie3)
+  print(InfoDB)
 
+if __name__ == "__main__":
+    printinfo()

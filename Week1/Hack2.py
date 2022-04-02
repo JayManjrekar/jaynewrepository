@@ -40,5 +40,7 @@ def recursive_loop(n):
     recursive_loop(n)
   
   
-tester()
 
+
+if __name__ == "__main__":
+    tester()
