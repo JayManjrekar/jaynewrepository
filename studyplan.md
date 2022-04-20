@@ -1,3 +1,5 @@
+{% include nav.html %}
+
 AP CSP 2-3 Week Study Plan
 4/20:
 
