@@ -1,0 +1,55 @@
+Provide a written response that does all three of the following: Approx. 150 words (for all subparts of 3a combined)
+ i. Describes the overall purpose of the program
+The overall purpose of the program is to allow the user to play an interactive general knowledge quiz to test their common intellect. 
+ii. Describes what functionality of the program is demonstrated in the video 
+The functionality of the program is to allow the user to answer a list of general knowledge questions and provide a letter grade based on their scoring of the test. If a question is left blank, the entirety of the quiz will not be graded. Additionally, if all of the questions are answered they will be graded based on correctness, where if they answer correctly they will be given a point and if they answer wrong, they will lose a point. 
+iii. Describes the input and output of the program demonstrated in the video 
+The input of the program are the answers inputted by the users, which are represented by the letters “A” “B” “C” and “D.” Whereas, the output would be the letter grade received by the set individual. 
+
+3 b. Capture and paste two program code segments you developed during the administration of this task that contain a list (or other collection type) being used to manage complexity in your program. Approx. 200 words (for all subparts of 3b combined, exclusive of program code)
+ i. The first program code segment must show how data have been stored in the list. 
+
+
+ii. The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose. Then, provide a written response that does all three of the following:
+
+
+ iii. Identifies the name of the list being used in this response
+The name of the list being used is “questions,” which happens to be a 2-D array. 
+ iv. Describes what the data contained in the list represent in your program
+Within the list of “questions,” it will have objects that represent questions. Within those objects, it will have the question itself, the correct answer for the specific question, and all the answer options which the question will hold correct or incorrect. 
+ v. Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list
+
+Because of the list of questions, we can easily identify which question correlates with which answer and answer choices. If we were not to have the set list, it would increase the complexity by a large amount, as we would have many if statements in unique configurations, which would allow us to have the same program functionality. This would cause issues, as there would be no way to dynamically change the size of the question list. 
+
+
+
+
+
+3 c. Capture and paste two program code segments you developed during the administration of this task that contain a student-developed procedure that implements an algorithm used in your program and a call to that procedure. Approx. 200 words (for all subparts of 3c combined, exclusive of program code) 
+i. The first program code segment must be a student-developed procedure that: 
+□ Defines the procedure’s name and return type (if necessary) 
+□ Contains and uses one or more parameters that have an effect on the functionality of the procedure
+ □ Implements an algorithm that includes sequencing, selection, and iteration
+Seq: one after another like calculate a area
+Sel: select from a group
+Iter: go through a list
+
+
+ ii. The second program code segment must show where your student-developed procedure is being called in your program. Then, provide a written response that does both of the following: 
+
+iii. Describes in general what the identified procedure does and how it contributes to the overall functionality of the program
+When a student is finished with their quiz, they will click the submit button, which will allow the program to grade the quiz. In general, we graded the quiz only if the user answered all of the questions. If they did not answer all the questions, their quiz would not be graded. The overall contribution of this function is to allow the user to see how they score amongst themselves and other people who participate. 
+
+
+
+
+
+ iv. Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it. 
+The function “gradeQuiz” will check if the status of the quiz has any empty or missing questions, and if it does the console will print out an error message which states “Missing Answers.” Otherwise, if all questions are answered it will start collecting all the questions, answers, and other data needed for the grading such as having the correct amount of answers selected to 0. Once this is completed, the program will go through each question and then get its correlating answer that was selected. Based on the if and else statements, the grading will either add a point or subtract a point depending on whether the answer was correct or incorrect respectively. Once all the quiz points are collected, we will assess which grade they have received based on their scoring percentage. If they score anything lower than a 60% it will be an “F,” between a 60% and 70% will be a “D”, between a 70% and 80% will be a “B”, and between a 90% and 100% would be an “A”
+
+3 d. Provide a written response that does all three of the following: Approx. 200 words (for all subparts of 3d combined)
+ i. Describes two calls to the procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute. First call: Second call:
+In the first call, the function will be called if any question is found to be empty. If that is to be the case, we will pass the string with the word “empty” in it. In the second call, the function will be called with the argument with the string “good,” which is done when all the questions are answered.   ii. Describes what condition(s) is being tested by each call to the procedure Condition(s) tested by the first call: Condition(s) tested by the second call:
+The condition that is being tested  is if all the questions in the quiz are being answered.  
+ iii. Identifies the result of each call Result of the first call: Result of the second call:
+The result of the first call would result in an error message being printed out to the screen, which would read “Missing Answers.” The result of the second call would result in the proper grading of the set quiz. 
